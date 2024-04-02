@@ -1,0 +1,22 @@
+TwoPacking(Graph G, int k):
+  n = number of vertices in G
+  P = empty set
+  visited = array of size n, initialized to false
+  for u in G.vertices:
+    if not visited[u]:
+      BFS(G, u, visited, P)
+      if size of P >= k:
+        return P
+  return P
+
+BFS(Graph G, int u, bool[] visited, Set P):
+  visited[u] = true
+  P.add(u)
+  for v in G.neighbors(u):
+    if not visited[v]:
+      visited[v] = true
+      P.add(v)
+      for w in G.neighbors(v):a
+        if not visited[w]:
+          visited[w] = true
+  return

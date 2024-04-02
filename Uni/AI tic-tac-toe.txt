@@ -1,0 +1,26 @@
+def parse_input():
+    n, t1, t2 = map(int, input().split())
+    board = [list(input()) for _ in range(n)]
+    return n, t1, t2, board
+
+def evaluate_board(board):
+    # Implement the logic to evaluate the board and calculate scores for both players.
+    # Placeholder for demonstration.
+    return 0, 0
+
+def minimax(board, depth, is_maximizing_player, alpha, beta, timeouts):
+    # Implement the Minimax algorithm with Alpha-Beta pruning.
+    # Placeholder for demonstration.
+    return True
+
+def can_first_player_win(n, t1, t2, board):
+    # Based on current board, determine if first player can ensure a win.
+    # Placeholder for the main decision-making logic.
+    return minimax(board, 0, True, float('-inf'), float('inf'), (t1, t2))
+
+# Example input processing
+n, t1, t2, board = parse_input()
+if can_first_player_win(n, t1, t2, board):
+    print("yes")
+else:
+    print("no")

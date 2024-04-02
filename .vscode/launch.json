@@ -1,0 +1,108 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Shortest_Path",
+      "request": "launch",
+      "mainClass": "Shortest_Path",
+      "projectName": "VS Code_eadccab8"
+    },
+    {
+      "type": "java",
+      "name": "TwoColorBipartite",
+      "request": "launch",
+      "mainClass": "TwoColorBipartite",
+      "projectName": "VS Code_eadccab8"
+    },
+    {
+      "type": "java",
+      "name": "BubbleSort",
+      "request": "launch",
+      "mainClass": "BubbleSort",
+      "projectName": "VS Code_eadccab8"
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "test",
+      "projectName": "VS Code_eadccab8"
+    },
+    {
+      "type": "java",
+      "name": "Pattern",
+      "request": "launch",
+      "mainClass": "Pattern",
+      "projectName": "VS Code_eadccab8"
+    },
+    {
+      "type": "java",
+      "name": "PalindromeNumber",
+      "request": "launch",
+      "mainClass": "PalindromeNumber",
+      "projectName": "VS Code_eadccab8"
+    },
+    {
+      "type": "java",
+      "name": "SingleNumber",
+      "request": "launch",
+      "mainClass": "SingleNumber",
+      "projectName": "VS Code_eadccab8"
+    },
+    {
+      "type": "java",
+      "name": "LongestCommonPrefix",
+      "request": "launch",
+      "mainClass": "LongestCommonPrefix",
+      "projectName": "VS Code_eadccab8"
+    },
+    {
+      "type": "java",
+      "name": "ValidPalindrome",
+      "request": "launch",
+      "mainClass": "ValidPalindrome",
+      "projectName": "VS Code_eadccab8"
+    },
+    {
+      "type": "java",
+      "name": "ValidParentheses",
+      "request": "launch",
+      "mainClass": "ValidParentheses",
+      "projectName": "VS Code_eadccab8"
+    },
+    {
+      "type": "java",
+      "name": "RomanNumbers",
+      "request": "launch",
+      "mainClass": "RomanNumbers",
+      "projectName": "VS Code_eadccab8"
+    },
+    {
+      "name": "C/C++: gcc.exe build and debug active file",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "C:\\MinGW\\bin",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C/C++: gcc.exe build active file"
+    }
+  ]
+}

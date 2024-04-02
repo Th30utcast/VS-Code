@@ -1,0 +1,27 @@
+def read_preferences(n):
+    judges_preferences = []
+    for _ in range(n):
+        line = input()
+        preferences = list(map(int, line.split()))[:-1]
+        judges_preferences.append(preferences)
+    return judges_preferences
+
+def check_common_recipe(judges_preferences):
+    # Convert each judge's preferences to a set for efficient intersection
+    judges_sets = [set(pref) for pref in judges_preferences]
+    # Find the intersection of all sets
+    common_recipes = set.intersection(*judges_sets)
+    # If the intersection is not empty, there is at least one common recipe
+    return 'yes' if common_recipes else 'no'
+
+def main():
+    string_s = input()
+    numbers = string_s.split()
+    m = int(numbers[0])  # number of bakers
+    n = int(numbers[1])  # number of judges
+
+    judges_preferences = read_preferences(n)
+
+    print(check_common_recipe(judges_preferences))
+
+main()
