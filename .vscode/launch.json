@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "m",
+      "request": "launch",
+      "mainClass": "m",
+      "projectName": "VS Code_3bdbd2b8"
+    },
+    {
+      "type": "java",
+      "name": "MST",
+      "request": "launch",
+      "mainClass": "MST",
+      "projectName": "VS Code_3bdbd2b8"
+    },
+    {
+      "type": "java",
+      "name": "moussa",
+      "request": "launch",
+      "mainClass": "moussa",
+      "projectName": "VS Code_3bdbd2b8"
+    },
+    {
+      "type": "java",
+      "name": "practice4",
+      "request": "launch",
+      "mainClass": "practice4",
+      "projectName": "VS Code_3bdbd2b8"
+    },
+    {
+      "type": "java",
       "name": "Shortest_Path",
       "request": "launch",
       "mainClass": "Shortest_Path",
